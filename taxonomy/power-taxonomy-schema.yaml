@@ -1,0 +1,118 @@
+# Power Taxonomy Schema v1.0
+# Cross-mythology framework for comparing how traditions structure governance
+# Derived from 10 tradition syntheses in the corpus
+
+schema:
+  version: "1.0"
+  description: >
+    A taxonomy for comparing governance structures across mythological
+    traditions. Each tradition is analyzed across five universal dimensions
+    that every governance system must address.
+
+dimensions:
+  authority:
+    description: How is power granted, delegated, or earned?
+    spectrum:
+      - inherited: "Power passes by blood/lineage (Greek succession, Zelda Triforce)"
+      - earned: "Power accretes through survival/achievement (Malazan ascendancy)"
+      - delegated: "Power distributed by a higher authority (Tolkien mandate)"
+      - emanated: "Power flows from source through levels (Abrahamic Sefirot)"
+      - distributed: "Power spread across many (Yoruba 401 Orishas)"
+      - emergent: "Power arises from conditions (Buddhist dependent origination)"
+      - invisible: "Power operates through non-action (Daoist wu wei)"
+    traditions:
+      greek-roman: inherited → overthrown → delegated
+      tolkien: delegated (Eru → Valar → Maiar → Istari)
+      malazan: earned (pressure → threshold → Ascendancy)
+      matrix: assigned (hierarchical role designation)
+      marvel-cosmic: jurisdictional (each entity = one function)
+      hindu-buddhist: cyclical (Trimurti rotation) + emanated (dharma)
+      norse: earned (sacrifice for knowledge) + inherited (Aesir lineage)
+      egyptian: ritual (Ma'at maintained through daily practice)
+      mesoamerican: sacrificial (cosmic fuel exchange)
+      african-yoruba: distributed (401 Orishas + Ifa algorithmic)
+      abrahamic: emanated (divine → angelic hierarchy → human)
+      daoist: invisible (wu wei — governance through non-action)
+      indigenous-australian: participatory (concurrent creation)
+
+  enforcement:
+    description: How are rules maintained and violations detected?
+    spectrum:
+      - retributive: "Violations punished after the fact (Greek Furies)"
+      - protective: "Boundaries actively defended (Tolkien Seraphim)"
+      - adversarial: "System stress-tested by attackers (Matrix Smith)"
+      - ritual: "Order maintained through daily practice (Egyptian Ma'at)"
+      - karmic: "Consequences autonomous and self-delivering (Hindu karma)"
+      - sacrificial: "Order maintained through resource extraction (Mesoamerican)"
+      - algorithmic: "Violations detected through structured consultation (Yoruba Ifa)"
+      - contractual: "Covenant terms enforced bilaterally (Abrahamic)"
+      - natural: "Violations self-correct through natural flow (Daoist)"
+      - relational: "Enforcement through kinship obligation (Indigenous Australian)"
+    traditions:
+      greek-roman: retributive (Furies) → institutional (Areopagus)
+      tolkien: protective (mandate fidelity) + delegated enforcement
+      malazan: pressure-based (survive or fail)
+      matrix: role-based (Agents enforce program boundaries)
+      marvel-cosmic: jurisdictional (each entity enforces its domain)
+      hindu-buddhist: karmic (autonomous consequence)
+      norse: fate-woven (Norns) + honor-based (warrior code)
+      egyptian: ritual (daily maintenance) + post-mortem (Weighing of Heart)
+      mesoamerican: sacrificial (cosmic fuel) + competitive (ballgame)
+      african-yoruba: algorithmic (Ifa) + trickster (Eshu's character tests)
+      abrahamic: contractual (covenant) + hierarchical (angelic enforcement)
+      daoist: natural (the river finds its level)
+      indigenous-australian: relational (kinship + Country's agency)
+
+  rebellion:
+    description: How do the governed resist, overthrow, or reform governance?
+    spectrum:
+      - succession: "New generation overthrows old (Greek Titanomachy)"
+      - ascendancy: "Individual transcends system through achievement (Malazan)"
+      - anomaly: "System produces its own challenger (Matrix Neo)"
+      - dissolution: "Structure dissolves into chaos before renewal (Norse Ragnarok)"
+      - trickster: "Subversion from within through wit (Yoruba Eshu, Norse Loki)"
+      - withdrawal: "Stepping outside the system entirely (Daoist sage, Buddhist monk)"
+      - prophecy: "Future foretold and enacted despite governance (various)"
+    traditions:
+      greek-roman: succession (Titan wars) + heroic defiance
+      tolkien: corruption from within (Saruman) + humble resistance (hobbits)
+      malazan: ascendancy (anyone can rise)
+      matrix: anomaly (the One)
+      marvel-cosmic: power accumulation (Thanos) + external invasion (Beyonders)
+      hindu-buddhist: avatar intervention (Vishnu incarnates when dharma declines)
+      norse: prophesied destruction (Ragnarok) + trickster catalysis (Loki)
+      egyptian: isfet (chaos) encroaching when Ma'at weakens
+      mesoamerican: creation failure (each Sun destroyed for structural flaw)
+      african-yoruba: trickster subversion (Eshu at the crossroads)
+      abrahamic: fall/rebellion (Lucifer, Babel, Grigori) + prophetic reform
+      daoist: non-resistance (water overcomes rock)
+      indigenous-australian: disconnection (breaking relationship with Country)
+
+  decay:
+    description: How do systems degrade, corrupt, or entropy?
+    spectrum:
+      - moral_decline: "Virtue erodes over time (Hindu yugas)"
+      - mandate_drift: "Components exceed their declared function (Tolkien)"
+      - pressure_accumulation: "Unresolved stress compounds (Malazan)"
+      - ritual_hollowing: "Practice continues but meaning is lost (Egyptian)"
+      - power_concentration: "Authority accumulates in fewer entities (various)"
+      - taint: "Invisible corruption accumulates with use (WoT)"
+      - parasitic_extraction: "Governance consumes more than it returns (Mesoamerican)"
+      - disconnection: "Governed lose relationship with governing (Indigenous Australian)"
+
+  renewal:
+    description: How do systems regenerate, cycle, or rebirth?
+    spectrum:
+      - cyclical: "Ages/eras repeat (Hindu yugas, Mesoamerican Suns, Norse Ragnarok-rebirth)"
+      - avatar: "Divine incarnation suited to the age (Hindu Vishnu)"
+      - succession: "New generation replaces old (Greek, Zelda)"
+      - ritual: "Daily practice renews (Egyptian Ma'at)"
+      - sacrifice: "Destruction enables creation (Hindu Shiva, Norse Ragnarok)"
+      - distributed: "Many small renewals across the system (Yoruba, One Piece)"
+      - natural: "The system renews itself through flow (Daoist)"
+      - participatory: "Ongoing creation through relationship (Indigenous Australian)"
+
+# Application to Vigiles
+# Each tradition's position on these 5 dimensions informs its regime's
+# audit_rules and priorities. The taxonomy reveals where traditions
+# converge (universal governance truths) and diverge (philosophical choices).
