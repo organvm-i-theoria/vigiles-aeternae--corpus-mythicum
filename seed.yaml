@@ -1,0 +1,20 @@
+organ: ORGAN-I
+name: vigiles-aeternae--corpus-mythicum
+tier: standard
+status: LOCAL
+description: >
+  The research corpus of the Vigiles Aeternae. Synthesized mythology across
+  20+ traditions, comparative power taxonomies, formal regime specifications,
+  and the metaLAWs codex serving as constitutional substrate.
+produces:
+  - target: organvm-ii-poiesis/vigiles-aeternae--theatrum-mundi
+    type: creative-source-material
+  - target: meta-organvm/vigiles-aeternae--agon-cosmogonicum
+    type: regime-specifications
+  - target: external
+    type: publishable-research
+consumes:
+  - source: meta-organvm/alchemia-ingestvm
+    type: ingested-material
+subscriptions:
+  - event: community.insight.submitted
